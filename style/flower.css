@@ -1,11 +1,18 @@
 .body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .banner {
     background: rgba(229, 84, 115, 0.10);
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-between;
+
+}
+
+.header {
+    margin-bottom: 100px;
 }
 
 .btn-primary {
@@ -21,4 +28,28 @@
 .banner .banner-pic {
     width: 500px;
     border-bottom: 0;
+
+}
+
+.banner-greetings {
+    padding-top: 150px;
+    font-size: 45px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    margin-top: 50px;
+
+}
+
+.feature-img {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
 }
